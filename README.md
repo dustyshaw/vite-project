@@ -1,3 +1,13 @@
+To build the image on the server:
+docker build -t dusty-react .
+
+
+To run the image on the server:
+docker run -it --rm -p 0.0.0.0:4343:80 dusty-react
+
+144.17.92.21:4343
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
